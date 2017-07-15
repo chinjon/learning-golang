@@ -19,3 +19,12 @@ func main() {
 
 // an asterisk is also used to dereference pointer variables.
 // dereferencing a pointer gives us access to the value of the pointer points to.
+
+// when we write *xPtr = 0, we are saying
+// "store the int 0 in the memory location xPtr refers to."
+// if we try xPtr = 0 instead, we will get a compile-time error because xPtr is not an int
+// it is a *int, which can only be given another *int
+
+// we use the & operator to find the addess of a variable.
+// &x returns a *int (pointer to an int) because x is an int. This is what allows us to modify the original variable.
+// &x in main and xPtr in zero refer to the same memory location.
