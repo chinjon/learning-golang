@@ -6,6 +6,7 @@ import "fmt"
 // there should be a uniqure name for every variable
 
 func max(x int) int {
+	// the int parameter is only available to the body of the function
 	return 42 + x
 }
 
