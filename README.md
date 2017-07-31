@@ -1,4 +1,10 @@
-# Learning Golang
+# Learning Go
+
+#### Blog Posts
+[Teaching Myself Golang By Summer’s End](https://medium.com/@chinjon/teaching-myself-golang-by-summers-end-7d8633d997e0)  
+[Observations on Golang from A JavaScript Developer Who is Learning It — Part I](https://medium.com/@chinjon/observations-on-golang-from-a-javascript-developer-who-is-learning-it-400d608b745)
+
+***
 
 #### Resources Being Used
 
