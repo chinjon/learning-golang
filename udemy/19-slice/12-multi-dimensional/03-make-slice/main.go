@@ -4,6 +4,8 @@ import (
 	"fmt"
 )
 
+// make sets length and capacity
+
 func main() {
 	student := make([]string, 35)
 	students := make([][]string, 35)
