@@ -8,8 +8,5 @@ func main() {
 		"Jenny": "Bonjour",
 	}
 
-	myGreeting["Harleen"] = "Howdy"
-	fmt.Println(myGreeting)
-	myGreeting["Harleen"] = "Gidday"
-	fmt.Println(myGreeting)
+	fmt.Println(myGreeting["Jenny"])
 }

@@ -4,6 +4,7 @@ import "fmt"
 
 func main() {
 	var myGreeting = make(map[string]string)
+	// there is no append function
 	myGreeting["Tim"] = "Good morning."
 	myGreeting["Jenny"] = "Bonjour."
 
