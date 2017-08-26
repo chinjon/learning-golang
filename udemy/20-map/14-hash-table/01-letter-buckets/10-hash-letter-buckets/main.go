@@ -21,6 +21,7 @@ func main() {
 	buckets := make([]int, 200)
 
 	for scanner.Scan() {
+		// assigns that index within the slice the value
 		n := hashBucket(scanner.Text())
 		buckets[n]++
 	}
@@ -33,5 +34,6 @@ func main() {
 }
 
 func hashBucket(word string) int {
+	// gets a number based on the first letter of the word
 	return int(word[0])
 }
